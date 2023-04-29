@@ -1,20 +1,27 @@
+// A omissão do BREAK, resulta na execução das subsequentes ocorrências
 public class SwitchCase {
 
 	public static void main(String[] args) {
 
-		var academia = Status.ABERTA;
+		var animal = Animal.CACHORRO;
 
-		switch (academia) {
-		case ABERTA:
-			System.out.println("A academia está " + academia);
+		switch (animal) {
+		case GATO:
+			System.out.println("O " + animal + " mia.");
+			break;
+		case CACHORRO:
+			System.out.println("O " + animal + " late.");
+			break;
+		case LEAO:
+			System.out.println("O " + animal + " ruge.");
 			break;
 		default:
-			System.out.println("A academia está " + academia);
+			System.out.println("nenhum animal foi informado!");
 			break;
 		}
 	}
 
-	enum Status {
-		ABERTA, FECHADA
+	enum Animal {
+		GATO, CACHORRO, LEAO
 	}
 }
