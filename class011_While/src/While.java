@@ -8,7 +8,6 @@ public class While {
 		while ( num <= max) {
 			System.out.println("execução " + num);
 			num++;
-		}
-		
+		}		
 	}
 }
