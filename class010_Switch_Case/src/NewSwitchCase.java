@@ -1,6 +1,7 @@
 
 public class NewSwitchCase {
  
+	@SuppressWarnings("unused")
 	private static int result;
 
 	public static void main(String[] args) {
