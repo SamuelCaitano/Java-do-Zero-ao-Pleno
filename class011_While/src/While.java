@@ -1,3 +1,4 @@
+// while loop is the most fundamental looping statement in java
 public class While {
 
 	public static void main(String[] args) {
